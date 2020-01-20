@@ -1,5 +1,5 @@
 program HelloWindows;
-uses Windows;
+uses Vcl.Dialogs;
 begin
-  MessageBox(0, 'a', 'b', MB_IGNORE);
+  ShowMessage('Hello, Windows!');
 end.
